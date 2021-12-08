@@ -13,12 +13,13 @@
   "show_map_name": true,
   "floor_number": 5,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
+  "connections": 0,
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
-      "x": 11,
-      "y": 6,
+      "in_connection": false,
+      "x": 10,
+      "y": 13,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 1,
@@ -29,9 +30,10 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_SAILOR",
-      "x": 6,
-      "y": 8,
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST",
+      "in_connection": false,
+      "x": 2,
+      "y": 6,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
       "movement_range_x": 1,
@@ -42,11 +44,12 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_CLERK",
-      "x": 1,
-      "y": 7,
+      "graphics_id": "OBJ_EVENT_GFX_CABLE_CLUB_RECEPTIONIST",
+      "in_connection": false,
+      "x": 6,
+      "y": 9,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 2,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -56,8 +59,9 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CLERK",
-      "x": 1,
-      "y": 6,
+      "in_connection": false,
+      "x": 11,
+      "y": 5,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 2,
@@ -77,21 +81,23 @@
       "dest_warp_id": 0
     },
     {
-      "x": 9,
+      "x": 3,
       "y": 2,
       "elevation": 3,
       "dest_map": "MAP_CELADON_CITY_DEPARTMENT_STORE_4F",
       "dest_warp_id": 2
     },
     {
-      "x": 3,
+      "x": 9,
       "y": 2,
       "elevation": 3,
       "dest_map": "MAP_CELADON_CITY_DEPARTMENT_STORE_ROOF",
       "dest_warp_id": 0
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",

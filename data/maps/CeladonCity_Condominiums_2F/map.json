@@ -13,10 +13,11 @@
   "show_map_name": false,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
+  "connections": 0,
   "object_events": [
     {
       "graphics_id": "0",
+      "in_connection": false,
       "x": 6,
       "y": 6,
       "elevation": 0,
@@ -30,6 +31,7 @@
     },
     {
       "graphics_id": "0",
+      "in_connection": false,
       "x": 5,
       "y": 6,
       "elevation": 0,
@@ -72,7 +74,9 @@
       "dest_warp_id": 4
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",

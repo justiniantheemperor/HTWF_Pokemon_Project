@@ -15,21 +15,22 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_ROUTE17",
-      "offset": 0,
-      "direction": "up"
+      "direction": "left",
+      "offset": -5,
+      "map": "MAP_CELADON_CITY"
     },
     {
-      "map": "MAP_FUCHSIA_CITY",
-      "offset": -10,
-      "direction": "right"
+      "direction": "up",
+      "offset": 44,
+      "map": "MAP_PALLET_TOWN"
     }
   ],
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKER",
-      "x": 46,
-      "y": 14,
+      "in_connection": false,
+      "x": 21,
+      "y": 4,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 1,
@@ -41,8 +42,9 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKER",
-      "x": 41,
-      "y": 15,
+      "in_connection": false,
+      "x": 25,
+      "y": 3,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
@@ -54,8 +56,9 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKER",
-      "x": 39,
-      "y": 12,
+      "in_connection": false,
+      "x": 29,
+      "y": 3,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 1,
@@ -68,21 +71,16 @@
   ],
   "warp_events": [
     {
-      "x": 41,
+      "x": 4,
       "y": 9,
       "elevation": 3,
-      "dest_map": "MAP_ROUTE18_EAST_ENTRANCE_1F",
-      "dest_warp_id": 0
-    },
-    {
-      "x": 48,
-      "y": 9,
-      "elevation": 3,
-      "dest_map": "MAP_ROUTE18_EAST_ENTRANCE_1F",
+      "dest_map": "MAP_ROUTE15_WEST_ENTRANCE_1F",
       "dest_warp_id": 1
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",
@@ -94,7 +92,7 @@
     },
     {
       "type": "sign",
-      "x": 52,
+      "x": 12,
       "y": 7,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",

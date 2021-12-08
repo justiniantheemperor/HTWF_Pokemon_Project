@@ -15,23 +15,19 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_ROUTE1",
-      "offset": 0,
-      "direction": "up"
-    },
-    {
-      "map": "MAP_ROUTE21_NORTH",
-      "offset": 0,
-      "direction": "down"
+      "direction": "down",
+      "offset": -44,
+      "map": "MAP_ROUTE18"
     }
   ],
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_1",
-      "x": 3,
-      "y": 10,
+      "graphics_id": "OBJ_EVENT_GFX_PSYDUCK",
+      "in_connection": false,
+      "x": 5,
+      "y": 15,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
       "movement_range_y": 4,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -41,10 +37,11 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
-      "x": 13,
-      "y": 17,
+      "in_connection": false,
+      "x": 7,
+      "y": 12,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_RIGHT",
       "movement_range_x": 6,
       "movement_range_y": 2,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -54,8 +51,9 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PROF_OAK",
-      "x": 10,
-      "y": 8,
+      "in_connection": false,
+      "x": 11,
+      "y": 10,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 1,
@@ -64,19 +62,75 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
       "flag": "FLAG_HIDE_OAK_IN_PALLET_TOWN"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_PSYDUCK",
+      "in_connection": false,
+      "x": 8,
+      "y": 15,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_PSYDUCK",
+      "in_connection": false,
+      "x": 4,
+      "y": 9,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_PSYDUCK",
+      "in_connection": false,
+      "x": 7,
+      "y": 14,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_PSYDUCK",
+      "in_connection": false,
+      "x": 8,
+      "y": 12,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
     }
   ],
   "warp_events": [
     {
-      "x": 6,
-      "y": 7,
+      "x": 9,
+      "y": 6,
       "elevation": 0,
       "dest_map": "MAP_PALLET_TOWN_PLAYERS_HOUSE_1F",
       "dest_warp_id": 1
     },
     {
-      "x": 15,
-      "y": 7,
+      "x": 20,
+      "y": 6,
       "elevation": 0,
       "dest_map": "MAP_PALLET_TOWN_RIVALS_HOUSE",
       "dest_warp_id": 0
@@ -110,8 +164,8 @@
     },
     {
       "type": "trigger",
-      "x": 13,
-      "y": 2,
+      "x": 14,
+      "y": 1,
       "elevation": 3,
       "var": "VAR_TEMP_2",
       "var_value": "1",
@@ -129,16 +183,16 @@
     },
     {
       "type": "sign",
-      "x": 4,
-      "y": 7,
+      "x": 7,
+      "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "PalletTown_EventScript_PlayersHouseSign"
     },
     {
       "type": "sign",
-      "x": 13,
-      "y": 7,
+      "x": 18,
+      "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "PalletTown_EventScript_RivalsHouseSign"
@@ -146,15 +200,15 @@
     {
       "type": "sign",
       "x": 9,
-      "y": 11,
+      "y": 10,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "PalletTown_EventScript_TownSign"
     },
     {
       "type": "sign",
-      "x": 5,
-      "y": 14,
+      "x": 14,
+      "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "PalletTown_EventScript_TrainerTips"

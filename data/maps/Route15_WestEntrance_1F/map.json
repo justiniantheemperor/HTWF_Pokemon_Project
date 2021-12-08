@@ -13,10 +13,11 @@
   "show_map_name": false,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
+  "connections": 0,
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
+      "in_connection": false,
       "x": 6,
       "y": 2,
       "elevation": 3,
@@ -34,29 +35,15 @@
       "x": 1,
       "y": 6,
       "elevation": 3,
-      "dest_map": "MAP_ROUTE15",
-      "dest_warp_id": 0
-    },
-    {
-      "x": 1,
-      "y": 7,
-      "elevation": 3,
-      "dest_map": "MAP_ROUTE15",
-      "dest_warp_id": 0
+      "dest_map": "MAP_CELADON_CITY",
+      "dest_warp_id": 6
     },
     {
       "x": 11,
       "y": 6,
       "elevation": 3,
-      "dest_map": "MAP_ROUTE15",
-      "dest_warp_id": 1
-    },
-    {
-      "x": 11,
-      "y": 7,
-      "elevation": 3,
-      "dest_map": "MAP_ROUTE15",
-      "dest_warp_id": 1
+      "dest_map": "MAP_ROUTE18",
+      "dest_warp_id": 0
     },
     {
       "x": 9,
@@ -66,6 +53,10 @@
       "dest_warp_id": 0
     }
   ],
-  "coord_events": [],
-  "bg_events": []
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
 }
