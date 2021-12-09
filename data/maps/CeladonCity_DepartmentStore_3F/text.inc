@@ -4,6 +4,29 @@ CeladonCity_DepartmentStore_3F_Text_OTStandsForOriginalTrainer:: @ 81956E9
     .string "OT stands for “Original TRAINER” -\n"
     .string "the TRAINER that caught it first.$"
 
+Nerd_Hey::
+    .string "Hey, ummm...\n"
+    .string "Do you think you could, ummm\p"
+    .string" come over here, uhh, please?$"
+
+Nerd_Situation::
+    .string "Thanks for listening to me.\p"
+    .string "It's not every day that\n"
+    .string "someone wants to talk to\l"
+    .string "a dweeb like me...\p"
+    .string "Here's the situation:\n"
+    .string "Do you see that girl\l"  
+    .string "sitting behind me? \p"
+    .string "I've got a huge crush on her. \p"
+    .string "We've talked a few times,\n" 
+    .string "but it still feels like I \l"
+    .string "hardly know her!\p"
+    .string "I'm usually not good at these\n" 
+    .string "kinds of things, and you seem\l"
+    .string "like you know what you're doing.\p"
+    .string "Do you think you could help me out?$"
+
+
 CeladonCity_DepartmentStore_3F_Text_BuddyTradingKangaskhanForHaunter:: @ 8195769
     .string "All right!\p"
     .string "My buddy's going to trade me his\n"

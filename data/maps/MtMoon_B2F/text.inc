@@ -1,25 +1,33 @@
 MtMoon_B2F_Text_MiguelIntro:: @ 8172B64
-    .string "Hey, stop!\p"
-    .string "I found these fossils!\n"
-    .string "They're both mine!$"
+    .string "How should I talk to her\n"
+    .string "so she will like me more?$"
 
 MtMoon_B2F_Text_MiguelDefeat:: @ 8172B99
     .string "Okay!\n"
-    .string "I'll share!$"
+    .string "I'll test your hypothesis!$"
 
 MtMoon_B2F_Text_WellEachTakeAFossil:: @ 8172BAB
-    .string "We'll each take a fossil!\n"
-    .string "No being greedy!$"
+    .string "What? You mean I shouldn't\n"
+    .string "just talk about myself?\p"
+    .string "Although I am not usually one to\n"
+    .string "shirk from an opportunity to flex\l"
+    .string "my superior intellect, I shall\l"
+    .string "oblidge and focus on her instead.\p" 
+    .string "I suppose if I enjoy talking about\n"
+    .string "myself, others would too...\p"
+    .string "It makes logical sense, after all!\p"
+    .string "Ok, here I go!$"
 
 MtMoon_B2F_Text_ThenThisFossilIsMine:: @ 8172BD6
     .string "All right.\n"
     .string "Then this fossil is mine!$"
 
 MtMoon_B2F_Text_LabOnCinnabarRegeneratesFossils:: @ 8172BFB
-    .string "Far away, on CINNABAR ISLAND,\n"
-    .string "there's a POKéMON LAB.\p"
-    .string "They do research on regenerating\n"
-    .string "fossils.$"
+    .string "Thanks again for the help,\n"
+    .string "{PLAYER}.\p"
+    .string "She is really starting to\n"
+    .string "open up to me.\p"
+    .string "I think she might even like me back!$"
 
 MtMoon_B2F_Text_Grunt1Intro:: @ 8172C5A
     .string "We, TEAM ROCKET, shall find the\n"

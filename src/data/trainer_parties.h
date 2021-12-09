@@ -1845,18 +1845,13 @@ static const struct TrainerMonNoItemDefaultMoves sTrainerMons_SuperNerdJovan[] =
 static const struct TrainerMonNoItemDefaultMoves sTrainerMons_SuperNerdMiguel[] = {
     {
         .iv = 0,
-        .lvl = 12,
-        .species = SPECIES_GRIMER,
+        .lvl = 37,
+        .species = SPECIES_MUK,
     },
     {
         .iv = 0,
-        .lvl = 12,
-        .species = SPECIES_VOLTORB,
-    },
-    {
-        .iv = 0,
-        .lvl = 12,
-        .species = SPECIES_KOFFING,
+        .lvl = 40,
+        .species = SPECIES_MAGNETON,
     },
 };
 

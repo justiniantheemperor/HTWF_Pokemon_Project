@@ -1,6 +1,7 @@
-.equ LOCALID_DOME_FOSSIL,  1
+.equ LOCALID_DOME_FOSSIL,  3
 .equ LOCALID_HELIX_FOSSIL, 2
-.equ LOCALID_MIGUEL,       3
+.equ LOCALID_MIGUEL,       1
+.equ LOCALID_GIRL, 	6
 
 MtMoon_B2F_MapScripts:: @ 8160699
 	map_script MAP_SCRIPT_ON_TRANSITION, MtMoon_B2F_OnTransition
@@ -42,6 +43,7 @@ MtMoon_B2F_EventScript_BattleMiguel:: @ 81606DD
 	trainerbattle_no_intro TRAINER_SUPER_NERD_MIGUEL, MtMoon_B2F_Text_MiguelDefeat
 	setvar VAR_MAP_SCENE_MT_MOON_B2F, 1
 	msgbox MtMoon_B2F_Text_WellEachTakeAFossil
+	call MtMoon_B2F_EventScript_DomeFossil
 	return
 
 MtMoon_B2F_EventScript_MiguelFossilPicked:: @ 8160707
@@ -55,36 +57,25 @@ MtMoon_B2F_EventScript_MiguelGoPickFossil:: @ 8160711
 	end
 
 MtMoon_B2F_EventScript_DomeFossil:: @ 816071B
-	lock
-	faceplayer
-	msgbox MtMoon_B2F_Text_YouWantDomeFossil, MSGBOX_YESNO
-	compare VAR_RESULT, NO
-	goto_if_eq MtMoon_B2F_EventScript_DontTakeFossil
-	removeobject LOCALID_DOME_FOSSIL
-	giveitem_msg MtMoon_B2F_Text_ObtainedDomeFossil, ITEM_DOME_FOSSIL, 1, MUS_OBTAIN_KEY_ITEM
-	closemessage
-	special QuestLog_CutRecording
-	delay 10
 	applymovement LOCALID_MIGUEL, MtMoon_B2F_Movement_MiguelToHelixFossil
 	waitmovement 0
-	moveobjectoffscreen LOCALID_MIGUEL
-	textcolor 0
-	playfanfare MUS_OBTAIN_KEY_ITEM
-	message MtMoon_B2F_Text_ThenThisFossilIsMine
-	waitmessage
-	waitfanfare
-	removeobject LOCALID_HELIX_FOSSIL
+	applymovement LOCALID_GIRL, Movement_GirlReact
+	waitmovement 0
 	setflag FLAG_GOT_DOME_FOSSIL
 	setflag FLAG_GOT_FOSSIL_FROM_MT_MOON
 	release
 	end
 
 MtMoon_B2F_Movement_MiguelToHelixFossil:: @ 816077A
-	walk_right
-	walk_up
-	walk_up
-	walk_up
+	walk_left
+	walk_left
 	step_end
+
+Movement_GirlReact::
+	walk_in_place_fast_right
+	emote_smile
+	step_end
+
 
 MtMoon_B2F_EventScript_HelixFossil:: @ 816077F
 	lock
@@ -116,9 +107,8 @@ MtMoon_B2F_EventScript_DontTakeFossil:: @ 81607DE
 	end
 
 MtMoon_B2F_Movement_MiguelToDomeFossil:: @ 81607E0
-	walk_up
-	walk_up
-	walk_up
+	walk_left
+	walk_left
 	step_end
 
 MtMoon_B2F_EventScript_Grunt1:: @ 81607E4
