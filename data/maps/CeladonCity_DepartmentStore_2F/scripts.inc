@@ -16,16 +16,20 @@ CeladonCity_Jock_Script::
 	end
 
 Jack_WalktoPlayer_Script::
-	applymovement LOCALID_JOCK, Jack_WalktoPlayer
+	applymovement OBJ_EVENT_ID_PLAYER, Jack_WalktoPlayer
 	waitmovement 0
 	return
 
 Jack_WalktoPlayer:
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_left
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_right
+	walk_down
+	walk_down
+	walk_right
+	walk_in_place_fast_up
 	step_end
 
 
