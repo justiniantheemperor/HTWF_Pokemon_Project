@@ -30,7 +30,7 @@
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "in_connection": false,
       "x": 40,
-      "y": 2,
+      "y": 3,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 4,
@@ -44,7 +44,7 @@
       "graphics_id": "OBJ_EVENT_GFX_MISTY",
       "in_connection": false,
       "x": 31,
-      "y": 27,
+      "y": 28,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 1,
@@ -58,7 +58,7 @@
       "graphics_id": "OBJ_EVENT_GFX_PSYDUCK",
       "in_connection": false,
       "x": 29,
-      "y": 27,
+      "y": 28,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 1,
@@ -72,7 +72,7 @@
       "graphics_id": "OBJ_EVENT_GFX_LITTLE_GIRL",
       "in_connection": false,
       "x": 28,
-      "y": 19,
+      "y": 20,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WALK_SEQUENCE_RIGHT_DOWN_LEFT_UP",
       "movement_range_x": 4,
@@ -86,7 +86,7 @@
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
       "in_connection": false,
       "x": 39,
-      "y": 15,
+      "y": 16,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
       "movement_range_x": 2,
@@ -100,7 +100,7 @@
       "graphics_id": "OBJ_EVENT_GFX_OLD_MAN_1",
       "in_connection": false,
       "x": 21,
-      "y": 12,
+      "y": 13,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 1,
@@ -114,7 +114,7 @@
       "graphics_id": "OBJ_EVENT_GFX_BROCK",
       "in_connection": false,
       "x": 32,
-      "y": 26,
+      "y": 27,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
@@ -128,7 +128,7 @@
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "in_connection": false,
       "x": 39,
-      "y": 2,
+      "y": 3,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 5,
@@ -142,7 +142,7 @@
       "graphics_id": "OBJ_EVENT_GFX_OLD_MAN_1",
       "in_connection": false,
       "x": 40,
-      "y": 19,
+      "y": 20,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
@@ -156,7 +156,7 @@
       "graphics_id": "OBJ_EVENT_GFX_BOY",
       "in_connection": false,
       "x": 25,
-      "y": 25,
+      "y": 26,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WALK_UP_AND_DOWN",
       "movement_range_x": 1,
@@ -170,7 +170,7 @@
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "in_connection": false,
       "x": 40,
-      "y": 1,
+      "y": 2,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 1,
@@ -184,7 +184,7 @@
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST",
       "in_connection": false,
       "x": 22,
-      "y": 19,
+      "y": 20,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
@@ -197,92 +197,71 @@
   ],
   "warp_events": [
     {
-      "x": 11,
-      "y": 15,
+      "x": 51,
+      "y": 20,
       "elevation": 0,
       "dest_map": "MAP_SAFFRON_CITY_COPYCATS_HOUSE_1F",
       "dest_warp_id": 0
     },
     {
       "x": 28,
-      "y": 14,
+      "y": 15,
       "elevation": 0,
       "dest_map": "MAP_CELADON_CITY_DEPARTMENT_STORE_1F",
       "dest_warp_id": 1
     },
     {
       "x": 32,
-      "y": 14,
+      "y": 15,
       "elevation": 0,
       "dest_map": "MAP_CELADON_CITY_DEPARTMENT_STORE_1F",
       "dest_warp_id": 4
     },
     {
       "x": 49,
-      "y": 11,
+      "y": 12,
       "elevation": 0,
       "dest_map": "MAP_CELADON_CITY_CONDOMINIUMS_1F",
       "dest_warp_id": 1
     },
     {
-      "x": 51,
-      "y": 19,
-      "elevation": 0,
-      "dest_map": "MAP_FUCHSIA_CITY_HOUSE3",
-      "dest_warp_id": 1
-    },
-    {
-      "x": 11,
-      "y": 14,
-      "elevation": 0,
-      "dest_map": "MAP_SAFFRON_CITY_HOUSE",
-      "dest_warp_id": 1
-    },
-    {
       "x": 57,
-      "y": 14,
+      "y": 15,
       "elevation": 0,
       "dest_map": "MAP_ROUTE15_WEST_ENTRANCE_1F",
       "dest_warp_id": 0
     },
     {
-      "x": 12,
-      "y": 15,
+      "x": 43,
+      "y": 12,
       "elevation": 0,
       "dest_map": "MAP_CELADON_CITY_RESTAURANT",
       "dest_warp_id": 1
     },
     {
       "x": 43,
-      "y": 19,
+      "y": 20,
       "elevation": 0,
       "dest_map": "MAP_CELADON_CITY_HOUSE1",
       "dest_warp_id": 1
     },
     {
-      "x": 11,
-      "y": 16,
+      "x": 38,
+      "y": 12,
       "elevation": 0,
       "dest_map": "MAP_CELADON_CITY_HOTEL",
       "dest_warp_id": 1
     },
     {
       "x": 47,
-      "y": 19,
+      "y": 20,
       "elevation": 0,
       "dest_map": "MAP_FUCHSIA_CITY_HOUSE1",
       "dest_warp_id": 5
     },
     {
       "x": 49,
-      "y": 4,
-      "elevation": 3,
-      "dest_map": "MAP_CELADON_CITY_CONDOMINIUMS_1F",
-      "dest_warp_id": 5
-    },
-    {
-      "x": 12,
-      "y": 14,
+      "y": 5,
       "elevation": 0,
       "dest_map": "MAP_CELADON_CITY_CONDOMINIUMS_1F",
       "dest_warp_id": 5
@@ -295,7 +274,7 @@
     {
       "type": "sign",
       "x": 47,
-      "y": 12,
+      "y": 13,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "CeladonCity_EventScript_TrainerTips2"
@@ -303,7 +282,7 @@
     {
       "type": "sign",
       "x": 54,
-      "y": 12,
+      "y": 13,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "CeladonCity_EventScript_CitySign"
@@ -311,7 +290,7 @@
     {
       "type": "sign",
       "x": 12,
-      "y": 16,
+      "y": 17,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "CeladonCity_EventScript_MansionSign"
@@ -319,7 +298,7 @@
     {
       "type": "sign",
       "x": 13,
-      "y": 16,
+      "y": 17,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "CeladonCity_EventScript_TrainerTips1"
@@ -327,7 +306,7 @@
     {
       "type": "sign",
       "x": 35,
-      "y": 14,
+      "y": 15,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "CeladonCity_EventScript_DeptStoreSign"
@@ -335,7 +314,7 @@
     {
       "type": "hidden_item",
       "x": 53,
-      "y": 10,
+      "y": 11,
       "elevation": 3,
       "item": "ITEM_RARE_CANDY",
       "flag": "FLAG_HIDE_FUCHSIA_CITY_WARDENS_HOUSE_RARE_CANDY",
