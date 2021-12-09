@@ -1,13 +1,13 @@
 PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround:: @ 818DC67
     .string "{RIVAL}: What, it's only {PLAYER}?\n"
-    .string "Gramps isn't around.$"
+    .string "Prof. Anderson isn't around.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting:: @ 818DC94
-    .string "{RIVAL}: Gramps!\n"
+    .string "{RIVAL}: Professor!\n"
     .string "I'm fed up with waiting!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe:: @ 818DCB9
-    .string "{RIVAL}: Hey! Gramps! No fair!\n"
+    .string "{RIVAL}: Hey! Professor! No fair!\n"
     .string "What about me?$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer:: @ 818DCE2
@@ -24,7 +24,7 @@ PalletTown_ProfessorOaksLab_Text_RivalReceivedMonFromOak:: @ 818DD52
 
 PalletTown_ProfessorOaksLab_Text_RivalMyMonLooksTougher:: @ 818DD75
     .string "{RIVAL}: My POKéMON looks a lot\n"
-    .string "tougher than yours.$"
+    .string "cooler than yours.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons:: @ 818DDA4
     .string "{RIVAL}: Wait, {PLAYER}!\n"
@@ -44,18 +44,18 @@ Text_RivalVictory:: @ 818DE1A
 PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon:: @ 818DE38
     .string "{RIVAL}: Okay! I'll make my\n"
     .string "POKéMON battle to toughen it up!\p"
-    .string "{PLAYER}! Gramps!\n"
+    .string "{PLAYER}! Professor!\n"
     .string "Smell you later!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGramps:: @ 818DE8D
-    .string "{RIVAL}: Gramps!$"
+    .string "{RIVAL}: Professor!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalWhatDidYouCallMeFor:: @ 818DE99
     .string "{RIVAL}: I almost forgot!\n"
     .string "What did you call me for?$"
 
 PalletTown_ProfessorOaksLab_Text_RivalLeaveItToMeGramps:: @ 818DEC8
-    .string "{RIVAL}: All right, Gramps!\n"
+    .string "{RIVAL}: All right,Professor!\n"
     .string "Leave it all to me!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap:: @ 818DEF3
@@ -127,10 +127,18 @@ PalletTown_ProfessorOaksLab_Text_ReceivedMonFromOak:: @ 818E30D
     .string "from PROF. OAK!$"
 
 PalletTown_ProfessorOaksLab_Text_OakCanReachNextTownWithMon:: @ 818E330
-    .string "OAK: If a wild POKéMON appears,\n"
-    .string "your POKéMON can battle it.\p"
-    .string "With it at your side, you should be\n"
-    .string "able to reach the next town.$"
+    .string "Prof Anderson: Now that you have\n"
+    .string "your own POKéMON, you can start\p"
+    .string "interviewing for internships!\p"
+    .string "I heard there are a lot of\n"
+    .string "openings in Celadon City.\p"
+    .string "Head south of here and follow the\n"
+    .string "route to get to Celadon City.\p"
+    .string "Locate the big purple building.\n"
+    .string "Most interviews are held there.\p"
+    .string "Good luck, and remember what you\n"
+    .string "learned in your book, How to Win\p"
+    .string "Friends and Influence People!$"
 
 PalletTown_ProfessorOaksLab_Text_OakBattleMonForItToGrow:: @ 818E3AD
     .string "OAK: {PLAYER}, raise your young\n"
@@ -347,7 +355,7 @@ PalletTown_ProfessorOaksLab_Text_OakMustReallyWorkToFillPokedex:: @ 818F103
     .string "undertaking in POKéMON history!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex:: @ 818F1DB
-    .string "{RIVAL}: Gramps, calm down.\n"
+    .string "{RIVAL}:Professor, calm down.\n"
     .string "Don't get so excited.\p"
     .string "I'll get the POKéDEX completed,\n"
     .string "don't you worry about a thing.\p"

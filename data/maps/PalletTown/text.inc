@@ -1,12 +1,13 @@
 PalletTown_Text_OakDontGoOut:: @ 817D72C
-    .string "OAK: Hey! Wait!\n"
-    .string "Don't go out!$"
+    .string "Prof. Anderson: Hey! Wait!\n"
+    .string "Winter break isn't here yet!$"
 
 PalletTown_Text_OakGrassUnsafeNeedMon:: @ 817D74A
-    .string "OAK: It's unsafe!\n"
-    .string "Wild POKéMON live in tall grass!\p"
-    .string "You need your own POKéMON for\n"
-    .string "your protection.\p"
+    .string "Before you start interviewing\n"
+    .string "for summer internships,\p"
+    .string "you need your own POKéMON to\n"
+    .string "help you win friends and\l"
+    .string "influence people.\p"
     .string "I know!\n"
     .string "Here, come with me!$"
 
@@ -34,7 +35,7 @@ PalletTown_Text_TownSign:: @ 817D895
     .string "Shades of your journey await!$"
 
 PalletTown_Text_OakLetMeSeePokedex:: @ 817D8BF
-    .string "OAK: Ah, {PLAYER}!\n"
+    .string "Prof. Anderson: Ah, {PLAYER}!\n"
     .string "You're back, are you?\p"
     .string "How much have you filled in your\n"
     .string "POKéDEX?\p"
@@ -57,7 +58,7 @@ PalletTown_Text_CaughtXImpressiveFollowMe:: @ 817D9AA
     .string "Follow me.$"
 
 PalletTown_Text_OakYouEnjoyingTraveling:: @ 817DA16
-    .string "OAK: Ah, {PLAYER}!\n"
+    .string "Prof. Anderson: Ah, {PLAYER}!\n"
     .string "You seem to be enjoying traveling.\p"
     .string "Knowing you, {PLAYER}, I can easily\n"
     .string "imagine you going out to even more\l"

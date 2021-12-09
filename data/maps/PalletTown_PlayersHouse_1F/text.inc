@@ -1,8 +1,11 @@
 PalletTown_PlayersHouse_1F_Text_AllBoysLeaveOakLookingForYou:: @ 818D2F0
-    .string "MOM: …Right.\n"
-    .string "All boys leave home someday.\l"
-    .string "It said so on TV.\p"
-    .string "Oh, yes. PROF. OAK, next door, was\n"
+    .string "{RIVAL}: Wow...\n"
+    .string "INTEX was really tough!\p"
+    .string "...\p"
+    .string "What?! What do you mean\n"
+    .string "you thought it was fun?\p"
+    .string "You're weird...\l"
+    .string "Oh, yeah. Prof. Anderson was\n"
     .string "looking for you.$"
 
 PalletTown_PlayersHouse_1F_Text_AllGirlsLeaveOakLookingForYou:: @ 818D360
