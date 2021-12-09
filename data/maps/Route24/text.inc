@@ -1,37 +1,43 @@
 Route24_Text_JustEarnedFabulousPrize:: @ 8188C3C
-    .string "Congratulations! You beat our\n"
-    .string "five contest TRAINERS!\p"
-    .string "You just earned a fabulous prize!$"
+    .string "???: Hi! Nice to meet you.\n"
+    .string "My name is Abby!\p"
+    .string "What's your name?\p"
+    .string "....\p"
+    .string "{PLAYER}?\n"
+    .string "Nice to meet you!\p"
+    .string "The boys over there\n"
+    .string "are being big meanies!$"
 
 Route24_Text_ReceivedNuggetFromMysteryTrainer:: @ 8188C93
-    .string "{PLAYER} received a NUGGET\n"
-    .string "from the mystery TRAINER!$"
+    .string "{PLAYER} received a doll\n"
+    .string "from Abby!$"
 
 Route24_Text_YouDontHaveAnyRoom:: @ 8188CC2
     .string "You don't have any room!$"
 
 Route24_Text_JoinTeamRocket:: @ 8188CDB
-    .string "By the way, how would you like to\n"
-    .string "join TEAM ROCKET?\p"
-    .string "We're a group of professional\n"
-    .string "criminals specializing in POKéMON!\p"
-    .string "Want to join?\p"
-    .string "Are you sure?\p"
-    .string "Come on, join us!\p"
-    .string "I'm telling you to join!\p"
-    .string "…Okay, you need convincing!\p"
-    .string "I'll make you an offer you can't\n"
-    .string "refuse!$"
+    .string "Will you be my friend?$"
 
 Route24_Text_RocketDefeat:: @ 8188DDC
-    .string "Arrgh!\n"
-    .string "You are good!$"
+    .string "Wow!\n"
+    .string "You are really good!$"
 
 Route24_Text_YoudBecomeTopRocketLeader:: @ 8188DF1
     .string "With your ability, you'd become\n"
     .string "a top leader in TEAM ROCKET.\p"
     .string "Come on, think of the opportunity!\n"
     .string "Don't let this chance go to waste.$"
+
+
+
+
+
+
+
+
+
+
+
 
 Route24_Text_ShaneIntro:: @ 8188E74
     .string "I saw your feat from the grass!$"

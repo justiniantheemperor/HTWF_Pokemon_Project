@@ -32,9 +32,10 @@ Route18_Text_JacobPostBattle:: @ 818772C
 
 Route18_Text_RouteSign:: @ 8187757
     .string "ROUTE 18\n"
-    .string "CELADON CITY - FUCHSIA CITY$"
+    .string "CELADON CITY$"
 
 Route18_Text_CyclingRoadSign:: @ 818777C
     .string "CYCLING ROAD\n"
     .string "No pedestrians permitted!$"
+
 
