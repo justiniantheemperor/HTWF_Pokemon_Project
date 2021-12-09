@@ -98,3 +98,12 @@ Route24_Text_CaleDefeat:: @ 818908C
 
 Route24_Text_CalePostBattle:: @ 818909E
     .string "I did my best. I have no regrets!$"
+
+Text_FriendQuestion:
+	.string "Will you be my friend?$"
+
+Text_PlayerAnsweredNo:
+	.string "Oh.../n"
+	.string ".../p"
+	.string "sniff/n"
+	.string "You're a meanie too!$"

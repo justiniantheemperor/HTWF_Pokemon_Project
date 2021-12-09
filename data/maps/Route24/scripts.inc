@@ -9,6 +9,7 @@ Route24_EventScript_Rocket:: @ 8168620
 	compare VAR_MAP_SCENE_ROUTE24, 1
 	goto_if_eq Route24_EventScript_RocketPostBattle
 	msgbox Route24_Text_JustEarnedFabulousPrize
+	msgbox Text_FriendQuestion, MSGBOX_YESNO
 	checkitemspace ITEM_NUGGET, 1
 	compare VAR_RESULT, FALSE
 	goto_if_eq Route24_EventScript_NoRoomForNugget
@@ -31,6 +32,12 @@ Route24_EventScript_RocketTriggerLeft:: @ 8168660
 	setvar VAR_TEMP_1, 0
 	goto Route24_EventScript_RocketTrigger
 	end
+
+Script_PlayerAnsweredNo::
+	msgbox Text_PlayerAnsweredNo
+	release
+	end
+
 
 Route24_EventScript_RocketTriggerRight:: @ 816866C
 	lockall
