@@ -16,23 +16,32 @@ Route24_Text_YouDontHaveAnyRoom:: @ 8188CC2
     .string "You don't have any room!$"
 
 Route24_Text_JoinTeamRocket:: @ 8188CDB
-    .string "Will you be my friend?$"
+    .string "This is fun!\p"
+    .string "Let's play with our POKéMON!$"
 
 Route24_Text_RocketDefeat:: @ 8188DDC
     .string "Wow!\n"
     .string "You are really good!$"
 
 Route24_Text_YoudBecomeTopRocketLeader:: @ 8188DF1
-    .string "With your ability, you'd become\n"
-    .string "a top leader in TEAM ROCKET.\p"
-    .string "Come on, think of the opportunity!\n"
-    .string "Don't let this chance go to waste.$"
+    .string "That was FUN!\p"
+    .string "Thank you for being my friend.\p"
+	.string "I'll see you later {PLAYER}!$"
 
+Text_FriendQuestion:
+	.string "Will you be my friend?$"
 
+Text_PlayerAnsweredNo:
+	.string "Oh...\n"
+	.string "...\p"
+	.string "sniff\n"
+	.string "You're a meanie too!$"
 
-
-
-
+Route24_Text_YaytoBeingFriend:
+    .string "Yay!\n"
+	.string "That makes me so happy.\p"
+	.string "You are really nice.\n"
+	.string "Here, take this!$"
 
 
 
@@ -105,11 +114,3 @@ Route24_Text_CaleDefeat:: @ 818908C
 Route24_Text_CalePostBattle:: @ 818909E
     .string "I did my best. I have no regrets!$"
 
-Text_FriendQuestion:
-	.string "Will you be my friend?$"
-
-Text_PlayerAnsweredNo:
-	.string "Oh.../n"
-	.string ".../p"
-	.string "sniff/n"
-	.string "You're a meanie too!$"

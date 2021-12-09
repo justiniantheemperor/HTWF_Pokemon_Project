@@ -4861,12 +4861,12 @@ static const struct TrainerMonNoItemDefaultMoves sTrainerMons_TeamRocketGrunt6[]
     {
         .iv = 0,
         .lvl = 15,
-        .species = SPECIES_EKANS,
+        .species = SPECIES_CLEFAIRY,
     },
     {
         .iv = 0,
         .lvl = 15,
-        .species = SPECIES_ZUBAT,
+        .species = SPECIES_PIKACHU,
     },
 };
 

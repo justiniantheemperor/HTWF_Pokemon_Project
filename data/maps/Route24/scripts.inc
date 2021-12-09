@@ -10,6 +10,8 @@ Route24_EventScript_Rocket:: @ 8168620
 	goto_if_eq Route24_EventScript_RocketPostBattle
 	msgbox Route24_Text_JustEarnedFabulousPrize
 	msgbox Text_FriendQuestion, MSGBOX_YESNO
+	compare VAR_RESULT, 0
+	goto_if_eq Script_PlayerAnsweredNo
 	checkitemspace ITEM_NUGGET, 1
 	compare VAR_RESULT, FALSE
 	goto_if_eq Route24_EventScript_NoRoomForNugget
@@ -33,12 +35,6 @@ Route24_EventScript_RocketTriggerLeft:: @ 8168660
 	goto Route24_EventScript_RocketTrigger
 	end
 
-Script_PlayerAnsweredNo::
-	msgbox Text_PlayerAnsweredNo
-	release
-	end
-
-
 Route24_EventScript_RocketTriggerRight:: @ 816866C
 	lockall
 	setvar VAR_TEMP_1, 1
@@ -46,26 +42,31 @@ Route24_EventScript_RocketTriggerRight:: @ 816866C
 	end
 
 Route24_EventScript_RocketTrigger:: @ 8168678
-	textcolor 0
+	textcolor 1
 	compare VAR_TEMP_1, 0
 	call_if_eq Route24_EventScript_RocketApproachPlayer
 	compare VAR_TEMP_1, 1
 	call_if_eq Route24_EventScript_RocketMotionToPlayer
-	applymovement OBJ_EVENT_ID_PLAYER, Movement_WalkInPlaceFastestRight
+	applymovement OBJ_EVENT_ID_PLAYER, Movement_ExclamationMark
 	waitmovement 0
 	msgbox Route24_Text_JustEarnedFabulousPrize
+	msgbox Text_FriendQuestion, MSGBOX_YESNO
+	compare VAR_RESULT, 0
+	goto_if_eq Script_PlayerAnsweredNo
 	checkitemspace ITEM_NUGGET, 1
 	compare VAR_RESULT, FALSE
 	goto_if_eq Route24_EventScript_NoRoomForNuggetTrigger
 	call Route24_EventScript_BattleRocket
+	call Route24_EventScript_EndInteraction
 	releaseall
 	end
 
 Route24_EventScript_BattleRocket:: @ 81686B9
-	giveitem_msg Route24_Text_ReceivedNuggetFromMysteryTrainer, ITEM_NUGGET
+	message Route24_Text_YaytoBeingFriend
+	giveitem_msg Route24_Text_ReceivedNuggetFromMysteryTrainer, ITEM_POKE_DOLL
 	message Route24_Text_JoinTeamRocket
 	waitmessage
-	playbgm MUS_ENCOUNTER_ROCKET, 0
+	playbgm MUS_ENCOUNTER_GIRL, 0
 	waitbuttonpress
 	setvar VAR_LAST_TALKED, LOCALID_ROCKET
 	trainerbattle_no_intro TRAINER_TEAM_ROCKET_GRUNT_6, Route24_Text_RocketDefeat
@@ -93,14 +94,50 @@ Route24_EventScript_NoRoomForNuggetTrigger:: @ 8168713
 	release
 	end
 
+Route24_EventScript_EndInteraction::
+	applymovement LOCALID_ROCKET, Route24_Movement_GirlRunAway
+	waitmovement 0
+	return
+
 Route24_EventScript_RocketWalkBackToPos:: @ 8168733
 	applymovement LOCALID_ROCKET, Route24_Movement_RocketWalkBackToPos
 	waitmovement 0
 	return
 
 Route24_Movement_RocketApproachPlayer:: @ 816873E
-	walk_left
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
 	step_end
+
+Route24_Movement_GirlRunAway::
+	walk_fastest_left
+	walk_fastest_left
+	walk_fastest_left
+	walk_fastest_left
+	walk_fastest_left
+	walk_fastest_left
+	walk_fastest_left
+	walk_fastest_left
+	walk_fastest_left
+	walk_fastest_left
+	walk_fastest_up
+	walk_fastest_up
+	walk_fastest_up
+	walk_fastest_up
+	walk_fastest_up
+	walk_fastest_up
+	walk_fastest_up
+	walk_fastest_up
+	walk_fastest_up
+	walk_fastest_up
+	walk_fastest_up
+	step_end
+
 
 Route24_Movement_RocketWalkBackToPos:: @ 8168740
 	walk_right
@@ -110,3 +147,11 @@ Route24_Movement_RocketWalkBackToPos:: @ 8168740
 Route24_Movement_WalkDown:: @ 8168743
 	walk_down
 	step_end
+
+
+Script_PlayerAnsweredNo::
+	msgbox Text_PlayerAnsweredNo
+	release
+	end
+
+
