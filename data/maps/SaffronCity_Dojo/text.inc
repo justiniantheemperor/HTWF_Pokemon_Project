@@ -60,17 +60,30 @@ SaffronCity_Dojo_Text_AaronPostBattle:: @ 819B3AC
     .string "psychic power!$"
 
 SaffronCity_Dojo_Text_HitoshiIntro:: @ 819B3DF
-    .string "Hwaah!\p"
-    .string "You're trespassing in our\n"
-    .string "FIGHTING DOJO!$"
+    .string "I have a problem here...\p"
+    .string "I am a personal trainer\n"
+    .string "at this gym.\p"
+    .string "A lot of my clients have been\n"
+    .string "complaining that I am overly critical...\p"
+    .string "You seem like a sociable fellow.\n"
+    .string "How can I treat my clients better?$"
 
 SaffronCity_Dojo_Text_HitoshiDefeat:: @ 819B40F
-    .string "Oof!\n"
-    .string "I give up!$"
+    .string "Hey! That sounds like a great idea.$"
 
 SaffronCity_Dojo_Text_HitoshiPostBattle:: @ 819B41F
-    .string "The prime fighters across the land\n"
-    .string "train here.$"
+    .string "So what you're saying is that\n"
+    .string "whenever I am giving criticism,\p"
+    .string "I should compliment them first?\p"
+    .string "Then, I should try to make any\n"
+    .string "suggestions their idea, so that\l"
+    .string "they are more motivated to do it?\p"
+    .string "...\n"
+    .string "Is that right?\p"
+    .string "HA!\n"
+    .string "You just did the same trick on me!\p" 
+    .string "That's as clever as a true\n"
+    .string "karate master right there!$"
 
 SaffronCity_Dojo_Text_YouWantHitmonlee:: @ 819B44E
     .string "You want the hard-kicking\n"

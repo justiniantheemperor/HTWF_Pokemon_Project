@@ -4017,44 +4017,29 @@ static const struct TrainerMonNoItemDefaultMoves sTrainerMons_BirdKeeperChester[
 static const struct TrainerMonNoItemDefaultMoves sTrainerMons_BirdKeeperWilton[] = {
     {
         .iv = 0,
-        .lvl = 29,
-        .species = SPECIES_SPEAROW,
-    },
-    {
-        .iv = 0,
-        .lvl = 29,
-        .species = SPECIES_FEAROW,
+        .lvl = 30,
+        .species = SPECIES_RATICATE,
     },
 };
 
 static const struct TrainerMonNoItemDefaultMoves sTrainerMons_BirdKeeperRamiro[] = {
     {
         .iv = 0,
-        .lvl = 34,
-        .species = SPECIES_DODRIO,
+        .lvl = 30,
+        .species = SPECIES_POOCHYENA,
     },
 };
 
 static const struct TrainerMonNoItemDefaultMoves sTrainerMons_BirdKeeperJacob[] = {
     {
         .iv = 0,
-        .lvl = 26,
-        .species = SPECIES_SPEAROW,
+        .lvl = 32,
+        .species = SPECIES_POOCHYENA,
     },
     {
         .iv = 0,
-        .lvl = 26,
-        .species = SPECIES_SPEAROW,
-    },
-    {
-        .iv = 0,
-        .lvl = 26,
-        .species = SPECIES_FEAROW,
-    },
-    {
-        .iv = 0,
-        .lvl = 26,
-        .species = SPECIES_SPEAROW,
+        .lvl = 32,
+        .species = SPECIES_RATICATE,
     },
 };
 
@@ -4247,20 +4232,14 @@ static const struct TrainerMonItemDefaultMoves sTrainerMons_BlackBeltAaron[] = {
 static const struct TrainerMonItemDefaultMoves sTrainerMons_BlackBeltHitoshi[] = {
     {
         .iv = 100,
-        .lvl = 31,
-        .species = SPECIES_MACHOP,
+        .lvl = 41,
+        .species = SPECIES_MACHOKE,
         .heldItem = ITEM_BLACK_BELT,
     },
     {
         .iv = 100,
-        .lvl = 31,
-        .species = SPECIES_MANKEY,
-        .heldItem = ITEM_BLACK_BELT,
-    },
-    {
-        .iv = 100,
-        .lvl = 31,
-        .species = SPECIES_PRIMEAPE,
+        .lvl = 41,
+        .species = SPECIES_MACHOKE,
         .heldItem = ITEM_BLACK_BELT,
     },
 };

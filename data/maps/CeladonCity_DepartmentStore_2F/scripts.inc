@@ -1,5 +1,40 @@
+.equ LOCALID_JOCK, 1
+
 CeladonCity_DepartmentStore_2F_MapScripts:: @ 816BAF4
 	.byte 0
+
+CeladonCity_Jock_Script::
+	lock
+	msgbox Jock_HeyShrimp
+	applymovement OBJ_EVENT_ID_PLAYER, Movement_ExclamationMark
+	waitmovement 0
+	setvar VAR_MAP_SCENE_SAFFRON_CITY_DOJO, 1
+	call Jack_WalktoPlayer_Script
+	call SaffronCity_Dojo_EventScript_Hitoshi
+	msgbox Jock_Finish
+	release
+	end
+
+Jack_WalktoPlayer_Script::
+	applymovement LOCALID_JOCK, Jack_WalktoPlayer
+	waitmovement 0
+	return
+
+Jack_WalktoPlayer:
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_left
+	step_end
+
+
+
+
+
+
+
+
 
 CeladonCity_DepartmentStore_2F_EventScript_UnusedNPC:: @ 816BAF5
 	msgbox CeladonCity_DepartmentStore_2F_Text_SuperRepelMorePowerfulRepel, MSGBOX_NPC
