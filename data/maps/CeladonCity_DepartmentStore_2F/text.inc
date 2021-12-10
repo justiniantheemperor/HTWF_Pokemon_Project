@@ -33,3 +33,6 @@ CeladonCity_DepartmentStore_2F_Text_LanceComesToBuyCapes:: @ 819566B
     .string "He always buys capes.\p"
     .string "I wonder… Does he have many\n"
     .string "identical capes at home?$"
+
+VermilionCity_PokemonFanClub_Text_Pikachu:: @ 819455A
+    .string "PIKACHU: Chu! Pikachu!$"

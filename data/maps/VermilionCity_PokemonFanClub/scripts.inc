@@ -95,15 +95,7 @@ VermilionCity_PokemonFanClub_EventScript_FatManSpokeToWoman:: @ 816B586
 	release
 	end
 
-VermilionCity_PokemonFanClub_EventScript_Pikachu:: @ 816B59E
-	lock
-	faceplayer
-	waitse
-	playmoncry SPECIES_PIKACHU, 0
-	msgbox VermilionCity_PokemonFanClub_Text_Pikachu
-	waitmoncry
-	release
-	end
+
 
 VermilionCity_PokemonFanClub_EventScript_Seel:: @ 816B5B1
 	lock

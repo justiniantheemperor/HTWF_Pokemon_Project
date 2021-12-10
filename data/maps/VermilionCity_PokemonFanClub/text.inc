@@ -18,9 +18,6 @@ VermilionCity_PokemonFanClub_Text_SeelFarMoreAttractive:: @ 8194518
     .string "My SEEL is far more attractive.\n"
     .string "By double, I would say.$"
 
-VermilionCity_PokemonFanClub_Text_Pikachu:: @ 819455A
-    .string "PIKACHU: Chu! Pikachu!$"
-
 VermilionCity_PokemonFanClub_Text_Seel:: @ 8194571
     .string "SEEL: Kyuoo!$"
 

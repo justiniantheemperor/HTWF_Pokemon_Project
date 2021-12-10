@@ -1739,21 +1739,21 @@ static const u16 sEeveeLevelUpLearnset[] = {
 };
 
 static const u16 sVaporeonLevelUpLearnset[] = {
-    LEVEL_UP_MOVE(26, MOVE_ENCORE),
-    LEVEL_UP_MOVE(26, MOVE_SING),
+    LEVEL_UP_MOVE(25, MOVE_ENCORE),
+    LEVEL_UP_MOVE(25, MOVE_SING),
     LEVEL_UP_END
 };
 
 static const u16 sJolteonLevelUpLearnset[] = {
-    LEVEL_UP_MOVE(26, MOVE_FLATTER),
-    LEVEL_UP_MOVE(26, MOVE_GLARE),
+    LEVEL_UP_MOVE(25, MOVE_FLATTER),
+    LEVEL_UP_MOVE(25, MOVE_GLARE),
     LEVEL_UP_END
 };
 
 static const u16 sFlareonLevelUpLearnset[] = {
 
-    LEVEL_UP_MOVE(26, MOVE_HELPING_HAND),
-    LEVEL_UP_MOVE(26, MOVE_TICKLE),
+    LEVEL_UP_MOVE(25, MOVE_HELPING_HAND),
+    LEVEL_UP_MOVE(25, MOVE_TICKLE),
     LEVEL_UP_END
 };
 

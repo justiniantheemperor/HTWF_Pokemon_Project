@@ -35,7 +35,15 @@ Jack_WalktoPlayer:
 
 
 
-
+VermilionCity_PokemonFanClub_EventScript_Pikachu:: @ 816B59E
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_PIKACHU, 0
+	msgbox VermilionCity_PokemonFanClub_Text_Pikachu
+	waitmoncry
+	release
+	end
 
 
 
