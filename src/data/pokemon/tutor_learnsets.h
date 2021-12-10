@@ -27,18 +27,21 @@ static const u16 sTutorLearnsets[] =
                         | TUTOR(MOVE_BODY_SLAM)
                         | TUTOR(MOVE_DOUBLE_EDGE)
                         | TUTOR(MOVE_MIMIC)
+                        | TUTOR(MOVE_COUNTER)
                         | TUTOR(MOVE_SUBSTITUTE),
 
     [SPECIES_IVYSAUR] = TUTOR(MOVE_SWORDS_DANCE)
                       | TUTOR(MOVE_BODY_SLAM)
                       | TUTOR(MOVE_DOUBLE_EDGE)
                       | TUTOR(MOVE_MIMIC)
+                      | TUTOR(MOVE_COUNTER)
                       | TUTOR(MOVE_SUBSTITUTE),
 
     [SPECIES_VENUSAUR] = TUTOR(MOVE_SWORDS_DANCE)
                        | TUTOR(MOVE_BODY_SLAM)
                        | TUTOR(MOVE_DOUBLE_EDGE)
                        | TUTOR(MOVE_MIMIC)
+                       | TUTOR(MOVE_COUNTER)
                        | TUTOR(MOVE_SUBSTITUTE),
 
     [SPECIES_CHARMANDER] = TUTOR(MOVE_MEGA_PUNCH)

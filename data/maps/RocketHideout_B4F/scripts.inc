@@ -2,11 +2,12 @@
 .equ LOCALID_SILPH_SCOPE, 2
 .equ LOCALID_LIFT_KEY,    4
 
+
 .equ NUM_DOOR_GRUNTS_DEFEATED, VAR_TEMP_1
 
 RocketHideout_B4F_MapScripts:: @ 81612E8
-	map_script MAP_SCRIPT_ON_LOAD, RocketHideout_B4F_OnLoad
 	.byte 0
+
 
 RocketHideout_B4F_OnLoad:: @ 81612EE
 	setvar NUM_DOOR_GRUNTS_DEFEATED, 0
@@ -20,26 +21,6 @@ RocketHideout_B4F_EventScript_CountGruntDefeated:: @ 8161311
 	addvar NUM_DOOR_GRUNTS_DEFEATED, 1
 	return
 
-RocketHideout_B4F_EventScript_Giovanni:: @ 8161317
-	lock
-	faceplayer
-	famechecker FAMECHECKER_GIOVANNI, 0
-	message RocketHideout_B4F_Text_GiovanniIntro
-	waitmessage
-	playbgm MUS_ENCOUNTER_ROCKET, 0
-	waitbuttonpress
-	trainerbattle_no_intro TRAINER_BOSS_GIOVANNI, RocketHideout_B4F_Text_GiovanniDefeat
-	msgbox RocketHideout_B4F_Text_GiovanniPostBattle
-	fadescreen FADE_TO_BLACK
-	closemessage
-	removeobject LOCALID_GIOVANNI
-	addobject LOCALID_SILPH_SCOPE
-	clearflag FLAG_HIDE_SILPH_SCOPE
-	setflag FLAG_HIDE_CELADON_ROCKETS
-	famechecker FAMECHECKER_GIOVANNI, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	fadescreen FADE_FROM_BLACK
-	release
-	end
 
 RocketHideout_B4F_EventScript_SilphScope:: @ 8161363
 	lock

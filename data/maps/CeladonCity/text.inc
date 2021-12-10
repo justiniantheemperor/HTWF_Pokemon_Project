@@ -20,12 +20,12 @@ CeladonCity_Text_BlewItAllAtSlots:: @ 817FFC5
     .string "COINS for prizes!$"
 
 CeladonCity_Text_MyTrustedPalPoliwrath:: @ 818001B
-    .string "This is my trusted pal, POLIWRATH.\p"
-    .string "It evolved from a POLIWHIRL when\n"
-    .string "I used a WATER STONE.$"
+    .string "This is my POKéMON, PSYDUCK.\p"
+    .string "It gets on my nerves a lot,\n"
+    .string "but he is still mine!$"
 
 CeladonCity_Text_Poliwrath:: @ 8180075
-    .string "POLIWRATH: Ribi ribit!$"
+    .string "PSYDUCK: Psyyyyy??$"
 
 CeladonCity_Text_GetLostOrIllPunchYou:: @ 818008C
     .string "What are you staring at?\n"
@@ -111,4 +111,30 @@ CeladonCity_Text_SomeoneStoleSilphScope:: @ 81804E1
     .string "I'm sure of it.\p"
     .string "But I lost sight of him!\n"
     .string "Where'd he go?$"
+
+
+Text_CounterTeach:: @ 8195928
+    .string "Oh, hi!\p"
+    .string "I see you're getting ready\n"
+    .string "for an interview? How about I teach\l"
+    .string "you a good move?\p"
+    .string "The move I have in mind is\n"
+    .string "COUNTER.\p"
+    .string "It'll help you come up with a good\n"
+    .string "rebuttle for their questions!$"
+
+Text_CounterDeclined:: @ 81959CC
+    .string "You're not interested? Come see\n"
+    .string "me if you change your mind.$"
+
+Text_CounterWhichMon:: @ 8195A08
+    .string "Which POKéMON should I teach\n"
+    .string "COUNTER to?$"
+
+Text_CounterTaught:: @ 8195A31
+    .string "Are you using that COUNTER move\n"
+    .string "I taught your POKéMON?$"
+
+
+
 

@@ -49,12 +49,12 @@
       "x": 11,
       "y": 9,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_SLOWLY_IN_PLACE_UP",
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "CeladonCity_DepartmentStore_3F_EventScript_GBAKid3",
+      "script": "CeladonCity_DepartmentStore_4F_EventScript_Man",
       "flag": "0"
     },
     {
@@ -119,12 +119,12 @@
       "x": 11,
       "y": 12,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_SLOWLY_IN_PLACE_UP",
+      "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_UP",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "CeladonCity_DepartmentStore_3F_EventScript_GBAKid3",
       "flag": "0"
     }
   ],

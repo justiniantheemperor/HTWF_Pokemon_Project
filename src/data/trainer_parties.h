@@ -4690,18 +4690,13 @@ static const struct TrainerMonNoItemDefaultMoves sTrainerMons_ScientistIvan[] = 
 static const struct TrainerMonNoItemDefaultMoves sTrainerMons_BossGiovanni[] = {
     {
         .iv = 250,
-        .lvl = 25,
-        .species = SPECIES_ONIX,
+        .lvl = 35,
+        .species = SPECIES_RHYDON,
     },
     {
         .iv = 250,
-        .lvl = 24,
-        .species = SPECIES_RHYHORN,
-    },
-    {
-        .iv = 250,
-        .lvl = 29,
-        .species = SPECIES_KANGASKHAN,
+        .lvl = 40,
+        .species = SPECIES_RHYDON,
     },
 };
 

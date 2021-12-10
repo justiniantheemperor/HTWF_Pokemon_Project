@@ -5,6 +5,10 @@ CeladonCity_MapScripts:: @ 8166C8F
 	map_script MAP_SCRIPT_ON_TRANSITION, CeladonCity_OnTransition
 	.byte 0
 
+CeladonCity_DepartmentStore_3F_EventScript_CounterTutor:: @ 816BB85
+	goto EventScript_CounterTutor
+	end
+
 CeladonCity_OnTransition:: @ 8166C95
 	setworldmapflag FLAG_WORLD_MAP_CELADON_CITY
 	end
@@ -45,7 +49,7 @@ CeladonCity_EventScript_Poliwrath:: @ 8166CDC
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_POLIWRATH, 0
+	playmoncry SPECIES_PSYDUCK, 0
 	msgbox CeladonCity_Text_Poliwrath
 	closemessage
 	waitmoncry

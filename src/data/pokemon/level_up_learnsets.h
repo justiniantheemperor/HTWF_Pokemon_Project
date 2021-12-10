@@ -1445,10 +1445,10 @@ static const u16 sRhyhornLevelUpLearnset[] = {
 };
 
 static const u16 sRhydonLevelUpLearnset[] = {
-    LEVEL_UP_MOVE(1, MOVE_HOWL),
+    LEVEL_UP_MOVE(1, MOVE_RAGE),
     LEVEL_UP_MOVE(1, MOVE_SCARY_FACE),
-    LEVEL_UP_MOVE(1, MOVE_OUTRAGE),
-    LEVEL_UP_MOVE(10, MOVE_STOMP),
+    LEVEL_UP_MOVE(1, MOVE_MEAN_LOOK),
+    LEVEL_UP_MOVE(10, MOVE_TORMENT),
     LEVEL_UP_END
 };
 
@@ -3620,7 +3620,6 @@ static const u16 sSwampertLevelUpLearnset[] = {
 
 static const u16 sPoochyenaLevelUpLearnset[] = {
     LEVEL_UP_MOVE(5, MOVE_HOWL),
-    LEVEL_UP_MOVE(5, MOVE_SWAGGER),
     LEVEL_UP_MOVE(5, MOVE_SCARY_FACE),
     LEVEL_UP_MOVE(5, MOVE_TAUNT),
     LEVEL_UP_END

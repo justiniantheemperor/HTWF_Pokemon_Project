@@ -31,9 +31,6 @@ Nerd_WalktoPlayer:
 	walk_left
 	step_end
 
-CeladonCity_DepartmentStore_3F_EventScript_CounterTutor:: @ 816BB85
-	goto EventScript_CounterTutor
-	end
 
 CeladonCity_DepartmentStore_3F_EventScript_GBAKid1:: @ 816BB8B
 	msgbox CeladonCity_DepartmentStore_3F_Text_OTStandsForOriginalTrainer, MSGBOX_NPC
@@ -77,4 +74,8 @@ CeladonCity_DepartmentStore_3F_EventScript_FloorSign:: @ 816BBDC
 
 CeladonCity_DepartmentStore_3F_EventScript_Poster:: @ 816BBE5
 	msgbox CeladonCity_DepartmentStore_3F_Text_RedGreenBothArePokemon, MSGBOX_SIGN
+	end
+
+CeladonCity_DepartmentStore_4F_EventScript_Man:: @ 816BBEF
+	msgbox CeladonCity_DepartmentStore_4F_Text_GettingPokeDollAsPresent, MSGBOX_NPC
 	end
