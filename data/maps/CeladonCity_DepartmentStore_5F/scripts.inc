@@ -9,6 +9,10 @@ CeladonCity_DepartmentStore_5F_EventScript_Sailor:: @ 816BC4A
 	msgbox CeladonCity_DepartmentStore_5F_Text_HereForStatEnhancers, MSGBOX_NPC
 	end
 
+CeladonCity_DepartmentStore_5F_EventScript_Receptionist::
+	msgbox receptionist, MSGBOX_NPC
+	end
+
 CeladonCity_DepartmentStore_5F_EventScript_FloorSign:: @ 816BC53
 	msgbox CeladonCity_DepartmentStore_5F_Text_Drugstore, MSGBOX_SIGN
 	end
@@ -58,4 +62,8 @@ CeladonCity_DepartmentStore_5F_Vitamins:: @ 816BCBC
 	.2byte ITEM_CARBOS
 	.2byte ITEM_NONE
 	release
+	end
+
+BrokenElevator_Script:: 
+	msgbox brokenelevator, MSGBOX_SIGN
 	end

@@ -21,3 +21,15 @@ CeladonCity_DepartmentStore_5F_Text_HereForStatEnhancers:: @ 8195CA0
 CeladonCity_DepartmentStore_5F_Text_Drugstore:: @ 8195D14
     .string "5F: DRUGSTORE$"
 
+receptionist:
+    .string "Hello! Are you here\n"
+    .string "for the interview?\p"
+    .string "Perfect! Just head through\n"
+    .string "that door to the left.\p"
+    .string "They are waiting\n"
+    .string "for you in there.$"
+
+brokenelevator::
+    .string "ELEVATOR OUT OF ORDER\n"
+    .string "PLEASE TAKE THE STAIRS$"
+    
