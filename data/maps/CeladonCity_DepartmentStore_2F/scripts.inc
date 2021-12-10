@@ -33,8 +33,6 @@ Jack_WalktoPlayer:
 	step_end
 
 
-
-
 VermilionCity_PokemonFanClub_EventScript_Pikachu:: @ 816B59E
 	lock
 	faceplayer

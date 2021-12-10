@@ -1,93 +1,74 @@
-VermilionCity_PokemonFanClub_Text_AdmirePikachusTail:: @ 819446F
-    .string "Won't you admire my PIKACHU's\n"
-    .string "adorable tail?$"
 
-VermilionCity_PokemonFanClub_Text_PikachuTwiceAsCute:: @ 819449C
-    .string "Humph!\p"
-    .string "My PIKACHU is twice as cute as\n"
-    .string "that one!$"
+InterviewPt1::
+    .string "Hello!\p"
+    .string "I presume you are here\n"
+    .string "for the interview?\p"
+    .string "Excellent!\p"
+    .string "What was your name?\p"
+    .string "...\n"
+    .string "{PLAYER}, nice to meet you!\p"
+    .string "My name is Arthur, and these\n"
+    .string "are my friends Jan and Hank.\p"
+    .string "May we take a look at your\n"
+    .string "resume please?$"
 
-VermilionCity_PokemonFanClub_Text_AdoreMySeel:: @ 81944CC
-    .string "I just adore my SEEL!\n"
-    .string "It's so lovable!\p"
-    .string "It squeals, “Kyuuuh,” when I\n"
-    .string "hug it!$"
+GiveResume::
+    .string "{PLAYER} handed Arthur\n"
+    .string "the resume$"
 
-VermilionCity_PokemonFanClub_Text_SeelFarMoreAttractive:: @ 8194518
-    .string "Oh, dear!\p"
-    .string "My SEEL is far more attractive.\n"
-    .string "By double, I would say.$"
+InterviewPt2::
+    .string "...\n"
+    .string "...\n"
+    .string "Well...\p"
+    .string "This is quite the resume!\p"
+    .string "Now we want to ask you\n"
+    .string "a few questions...\p"
+    .string "Are you ready?$"
 
-VermilionCity_PokemonFanClub_Text_Seel:: @ 8194571
-    .string "SEEL: Kyuoo!$"
+SSAnne_1F_Room5_Text_ArthurIntro:: @ 8173BD1
+    .string "Are you ready?$"
 
-VermilionCity_PokemonFanClub_Text_DidYouComeToHearAboutMyMons:: @ 819457E
-    .string "I chair the POKéMON Fan Club!\p"
-    .string "I raise more than a hundred\n"
-    .string "POKéMON!\p"
-    .string "I'm very fussy when it comes to\n"
-    .string "POKéMON! I surely am!\p"
-    .string "So…\p"
-    .string "Did you come visit to hear about\n"
-    .string "my POKéMON?$"
+SSAnne_1F_Room5_Text_ArthurDefeat:: @ 8173BFA
+    .string "Well said!$"
 
-VermilionCity_PokemonFanClub_Text_ChairmansStory:: @ 8194628
-    .string "Good!\n"
-    .string "Then listen up!\p"
-    .string "My favorite RAPIDASH…\p"
-    .string "It's…cute…lovely…smart… \n"
-    .string "plus…amazing…you think so?…\l"
-    .string "oh yes…it's…stunning…\l"
-    .string "kindly…love it!\p"
-    .string "Hug it…when…sleeping…warm\n"
-    .string "and cuddly…spectacular…\l"
-    .string "ravishing…\l"
-    .string "…Oops! Look at the time!\l"
-    .string "I kept you too long!\p"
-    .string "Thanks for hearing me out!\n"
-    .string "I want you to have this!$"
+SSAnne_1F_Room5_Text_ArthurPostBattle:: @ 8173C30
+    .string "You answered all of\n"
+    .string "our questions perfectly!$"
 
-VermilionCity_PokemonFanClub_Text_ReceivedBikeVoucherFromChairman:: @ 819474E
-    .string "{PLAYER} received a BIKE VOUCHER\n"
-    .string "from the CHAIRMAN.$"
+PostBattle1::
+    .string "Now, if you would step outside\n"
+    .string "for just--$"
 
-VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher:: @ 819477C
-    .string "Take that BIKE VOUCHER to the\n"
-    .string "BIKE SHOP in CERULEAN CITY.\p"
-    .string "Exchange that for a BICYCLE\n"
-    .string "free of charge!\p"
-    .string "Don't worry, my favorite FEAROW\n"
-    .string "will FLY me anywhere I need to go.\p"
-    .string "So, I have no need for a BICYCLE.\p"
-    .string "I hope you like cycling!$"
+AbbySpeak::
+    .string "Abby: Daddy Daddy Daddy!!\p"
+    .string "Are you almost done yet?$"
 
-VermilionCity_PokemonFanClub_Text_ComeBackToHearStory:: @ 8194860
-    .string "Oh. Come back when you want to\n"
-    .string "hear my story!$"
+IknowYou::
+    .string "Hey, I know you!\p"
+    .string "You are the meanie head\n"
+    .string "that didn't want to play with me!\p"
 
-VermilionCity_PokemonFanClub_Text_DidntComeToSeeAboutMonsAgain:: @ 819488E
-    .string "Hello, {PLAYER}!\p"
-    .string "Did you come see me about my\n"
-    .string "POKéMON again?\p"
-    .string "No?\n"
-    .string "Too bad!$"
+Failed::
+    .string "Arthur: He treated you\n"
+    .string "like that??\p"
+    .string "I'm sorry, {PLAYER}\p"
+    .string "I don't think you have\n"
+    .string "what it takes to work\l"
+    .string "to work in this company...$"
 
-VermilionCity_PokemonFanClub_Text_MakeRoomForThis:: @ 81948D2
-    .string "Make room for this!$"
+HiPlayer::
+    .string "Oh, hi {PLAYER}!\p"
+    .string "Daddy, {PLAYER} is my friend!\p"
+    .string "We played together on Route 18\n"
+    .string "earlier this morning.$"
 
-VermilionCity_PokemonFanClub_Text_ChairmanVeryVocalAboutPokemon:: @ 81948E6
-    .string "Our CHAIRMAN is very vocal about\n"
-    .string "POKéMON.$"
-
-VermilionCity_PokemonFanClub_Text_ListenPolitelyToOtherTrainers:: @ 8194910
-    .string "Let's all listen politely to other\n"
-    .string "TRAINERS!$"
-
-VermilionCity_PokemonFanClub_Text_SomeoneBragsBragBack:: @ 819493D
-    .string "If someone brags, brag right back!$"
-
-VermilionCity_PokemonFanClub_Text_ChairmanReallyAdoresHisMons:: @ 8194960
-    .string "Our CHAIRMAN really does adore his\n"
-    .string "POKéMON.\p"
-    .string "But the person who is most liked by\n"
-    .string "POKéMON is DAISY, I think.$"
+Succeed::
+    .string "Wow, {PLAYER} you did that?\p"
+    .string "Ever since we moved, my daughter\n"
+    .string "has had a very difficult time\l"
+    .string "making friends and fitting in\p"
+    .string "Thank you so much for taking!\n"
+    .string "the time to befriend my daughter.\p"
+    .string "I think that settles it for everyone!\n"
+    .string "{PLAYER}, welcome to the team!\l"
+    .string "We start work in June!$"

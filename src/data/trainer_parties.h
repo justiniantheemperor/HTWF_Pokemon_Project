@@ -185,8 +185,18 @@ static const struct TrainerMonNoItemDefaultMoves sTrainerMons_Psychic2[] = {
 static const struct TrainerMonNoItemDefaultMoves sTrainerMons_Gentleman1[] = {
     {
         .iv = 0,
-        .lvl = 5,
-        .species = SPECIES_EKANS,
+        .lvl = 30,
+        .species = SPECIES_VAPOREON,
+    },
+        {
+        .iv = 0,
+        .lvl = 30,
+        .species = SPECIES_JOLTEON,
+    },
+        {
+        .iv = 0,
+        .lvl = 30,
+        .species = SPECIES_FLAREON,
     },
 };
 
@@ -4020,7 +4030,7 @@ static const struct TrainerMonNoItemDefaultMoves sTrainerMons_BirdKeeperWilton[]
 static const struct TrainerMonNoItemDefaultMoves sTrainerMons_BirdKeeperRamiro[] = {
     {
         .iv = 0,
-        .lvl = 30,
+        .lvl = 32,
         .species = SPECIES_POOCHYENA,
     },
 };
@@ -6353,13 +6363,18 @@ static const struct TrainerMonNoItemDefaultMoves sTrainerMons_GentlemanThomas[] 
 static const struct TrainerMonNoItemDefaultMoves sTrainerMons_GentlemanArthur[] = {
     {
         .iv = 0,
-        .lvl = 19,
-        .species = SPECIES_NIDORAN_M,
+        .lvl = 27,
+        .species = SPECIES_VAPOREON,
     },
-    {
+        {
         .iv = 0,
-        .lvl = 19,
-        .species = SPECIES_NIDORAN_F,
+        .lvl = 27,
+        .species = SPECIES_JOLTEON,
+    },
+        {
+        .iv = 0,
+        .lvl = 27,
+        .species = SPECIES_FLAREON,
     },
 };
 

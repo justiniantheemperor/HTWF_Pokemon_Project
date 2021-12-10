@@ -5065,8 +5065,8 @@ const struct Trainer gTrainers[] = {
     },
     [TRAINER_GENTLEMAN_ARTHUR] = {
         .partyFlags = 0,
-        .trainerClass = CLASS_GENTLEMAN_2,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
+        .trainerClass = CLASS_LEADER_2,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
         .trainerPic = TRAINER_PIC_GENTLEMAN,
         .trainerName = _("ARTHUR"),
         .items = {},
